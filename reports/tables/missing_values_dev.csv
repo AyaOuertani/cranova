@@ -1,0 +1,59 @@
+,,0
+cranial_missing_pct,AUB,0.0
+cranial_missing_pct,BBH,0.0
+cranial_missing_pct,BNL,0.0
+cranial_missing_pct,BPL,0.0
+cranial_missing_pct,FRC,0.0
+cranial_missing_pct,GOL,0.0
+cranial_missing_pct,MAB,0.0
+cranial_missing_pct,NLB,0.0
+cranial_missing_pct,NLHL,0.0
+cranial_missing_pct,OBHL,0.0
+cranial_missing_pct,OCC,0.0
+cranial_missing_pct,PAC,0.0
+cranial_missing_pct,UFHT,0.0
+cranial_missing_pct,WFB,0.0
+cranial_missing_pct,XCB,0.0
+cranial_missing_pct,ZYB,0.0
+cranial_missing_pct,OBBL,17.4
+tissue_depth_missing_pct,acp L,0.0
+tissue_depth_missing_pct,acp R,0.0
+tissue_depth_missing_pct,az L,49.5
+tissue_depth_missing_pct,az R,50.0
+tissue_depth_missing_pct,g,0.5
+tissue_depth_missing_pct,gn,1.4
+tissue_depth_missing_pct,gn - z,0.0
+tissue_depth_missing_pct,go L,0.0
+tissue_depth_missing_pct,go R,0.0
+tissue_depth_missing_pct,ic L,0.0
+tissue_depth_missing_pct,ic R,0.0
+tissue_depth_missing_pct,im2 L,0.5
+tissue_depth_missing_pct,im2 R,0.5
+tissue_depth_missing_pct,li,0.5
+tissue_depth_missing_pct,ls,0.0
+tissue_depth_missing_pct,m,4.6
+tissue_depth_missing_pct,me,1.4
+tissue_depth_missing_pct,mio L,0.0
+tissue_depth_missing_pct,mio R,0.0
+tissue_depth_missing_pct,mls,0.0
+tissue_depth_missing_pct,mmb L,0.5
+tissue_depth_missing_pct,mmb R,0.5
+tissue_depth_missing_pct,mn,0.0
+tissue_depth_missing_pct,mp,0.5
+tissue_depth_missing_pct,mr L,0.0
+tissue_depth_missing_pct,mr R,0.0
+tissue_depth_missing_pct,mso L,0.0
+tissue_depth_missing_pct,mso R,0.0
+tissue_depth_missing_pct,n,0.5
+tissue_depth_missing_pct,op,0.5
+tissue_depth_missing_pct,pg,0.5
+tissue_depth_missing_pct,rhi,0.0
+tissue_depth_missing_pct,sc L,0.0
+tissue_depth_missing_pct,sc R,0.0
+tissue_depth_missing_pct,sm2 L,0.0
+tissue_depth_missing_pct,sm2 R,0.0
+tissue_depth_missing_pct,sg,3.2
+tissue_depth_missing_pct,sn,0.5
+tissue_depth_missing_pct,v,1.9
+tissue_depth_missing_pct,zy L,0.0
+tissue_depth_missing_pct,zy R,0.0

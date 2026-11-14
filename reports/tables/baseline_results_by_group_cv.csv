@@ -1,0 +1,6 @@
+,,Mean predictor,ReFace,ReFace bias-corrected,Ridge regression,Ridge + sex + ancestry
+ancestry,AFR,3.901,2.742,2.678,2.823,2.724
+ancestry,ASN,2.961,2.028,1.851,2.211,1.995
+ancestry,EUR,3.585,2.027,1.911,2.541,2.266
+sex,F,3.468,2.165,2.081,2.409,2.287
+sex,M,3.479,2.354,2.197,2.631,2.356
