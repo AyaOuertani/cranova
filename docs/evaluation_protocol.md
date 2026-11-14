@@ -54,8 +54,34 @@
 - Any change to this protocol is logged below with the date and the reason.
 - No model is trained or tuned using the test set.
 
+## 8. Planned Phase 3 experiments (defined before running)
+All experiments use the same development folds as the baselines. Inputs are the
+16 cranial measurements plus sex and ancestry, unless stated.
+
+| ID | Experiment | Notes |
+|----|-----------|-------|
+| E1 | Classical models: ridge, elastic net, PLS | Linear reference family |
+| E2 | Small MLP (1-2 hidden layers) | Weight decay, early stopping, ensemble of seeds |
+| E3 | Residual MLP | Learns the correction on top of the ridge prediction |
+| E4 | Multi-task MLP | Predicts facial distances and tissue depth; tissue depth is a training target only |
+| E5 | Transfer learning | Only if the pretrained-model survey finds a suitable source; otherwise recorded as not applicable |
+
+Rules:
+- Hyperparameters are tuned by inner cross-validation on development subjects only,
+  with the same tuning budget (at most 30 configurations) for every candidate.
+- Model selection compares candidates with ridge + sex + ancestry, the best baseline
+  that does not need ReFace output. A candidate is selected only if it beats that
+  baseline by at least 0.10 mm with a 95% CI excluding zero. Otherwise the
+  baseline is kept (simplicity wins).
+- Comparison with ReFace is reported separately, as success criterion S1b.
+- Uncertainty intervals (split-conformal or an ensemble) are built for the selected
+  model; their coverage is checked in cross-validation.
+- The locked test set is used once, for the selected model and the baselines together.
+
 ### Change log
 - 2026-11-14: v1 created.
 - 2026-11-14: Sex and ancestry added as allowed inputs; ridge + sex + ancestry added as
   baseline 5; meaningful-improvement threshold set to 0.10 mm. Decided from
   development-set results only; no test-set information used.
+- 2026-11-14: Added section 8 (planned Phase 3 experiments). Clarified that model selection
+  is compared with ridge + sex + ancestry; comparison with ReFace is reported separately (S1b).
