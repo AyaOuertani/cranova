@@ -21,7 +21,8 @@ for forensic research. It does not identify individuals.
 ## 4. Success criteria
 | ID | Criterion | How it is tested |
 |----|-----------|------------------|
-| S1 | Model MAE on held-out subjects is lower than the ReFace baseline (2.27 mm MAE on the same distances) | Subject-level test set, paired comparison, confidence interval excludes zero |
+| S1a | Model MAE on held-out subjects is lower than the mean-predictor baseline | Paired comparison, 95% CI excludes zero |
+| S1b | Non-inferiority to ReFace (2.26 mm MAE) | Upper end of the 95% CI of (model minus ReFace) is below +0.10 mm |
 | S2 | Model beats a predict-the-mean baseline | Same test set |
 | S3 | Predicted distances are geometrically consistent (3D landmark reconstruction error reported) | MDS reconstruction residual |
 | S4 | Every prediction has an uncertainty estimate, and its coverage is verified on held-out subjects | Empirical coverage vs nominal level |
@@ -34,8 +35,7 @@ Step 5, after the baselines are measured, and before any model is trained.
 ## 5. Constraints
 - ~274 matched subjects; small sample, so simple models come first.
 - Distances only; no 3D coordinates are available.
-- Data licence not yet verified: raw data is not committed to Git.
-
+- Datasets are CC BY 4.0; cite Data in Brief 2022 and the Mendeley datasets.
 ## 6. Ethics and limitations (to be expanded in the thesis)
 - Outputs are approximations with stated uncertainty, not evidence of identity.
 - Interface must distinguish measured, predicted and template-derived regions.

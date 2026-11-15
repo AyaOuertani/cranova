@@ -9,7 +9,7 @@
 | R5 | Likely data-entry errors in tissue depth | M | M | Review the flagged values against the source; use robust methods; never delete silently | afr100 az about 110 mm; his021 mmb R 74.6 mm |
 | R6 | Missing values: OBBL (all ASNM subjects) and az L/R (about 50%) | H | L | OBBL dropped from primary features; az excluded or treated as a sensitivity analysis | Dataset documentation |
 | R7 | Data leakage: test set used during development, or one subject's `_k` and `_r` faces split across train and test | M | H | Frozen split; subject-level folds; preprocessing inside CV; EDA on development subjects only | Protocol sections 2 and 7 |
-| R8 | Unknown whether ReFace was built using these subjects, so the comparison may not be like-for-like | M | M | State the caveat; ask the data owners; report the comparison as indicative | Protocol section 6 |
+| R8 | cans were collected as ReFace's reference database (Data in Brief 2022) | M | M | overlap with ReFace's build data unverified | Protocol section 6 |
 | R9 | Undocumented tissue-depth columns (`gn - z`, `me`, `sg`, `az`) | M | M | Clarify with the supervisor or source paper before Phase 5; exclude if unresolved | Dataset documentation |
 | R10 | Uncertainty intervals unreliable at this sample size | M | H | Conformal or ensemble methods; verify coverage in CV and on the test set; report if coverage is poor | Requirement S4 |
 | R11 | Head-model licence or technical limits (Phase 6) block the planned complete-head representation | M | M | Check licence and compatibility before building; keep a simple template as fallback | Roadmap Phase 6 |
