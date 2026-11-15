@@ -1,0 +1,4 @@
+model,MAE_mm,diff_vs_best_baseline_mm,ci_low,ci_high,selected
+Ridge,2.321,0.0,-0.0,0.0,False
+Elastic net,2.321,-0.001,-0.005,0.004,False
+PLS,2.36,0.039,0.02,0.058,False

@@ -1,0 +1,2 @@
+model,MAE_mm,diff_vs_best_baseline_mm,ci_low,ci_high,selected
+Residual MLP,2.323,0.002,0.0,0.003,False

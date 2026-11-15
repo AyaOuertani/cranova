@@ -1,0 +1,2 @@
+model,MAE_mm,diff_vs_best_baseline_mm,ci_low,ci_high,selected,diff_vs_E2_single_task_mm,E2_ci_low,E2_ci_high
+Multi-task MLP,2.313,-0.008,-0.041,0.024,False,-0.02,-0.033,-0.007
