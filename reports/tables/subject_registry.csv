@@ -1,0 +1,405 @@
+id,ancestry,sex,in_cranial,in_facial,in_tissue_depth,split_role,status
+afr001,AFR,F,True,True,True,dev,modelling set
+afr002,AFR,F,True,True,True,dev,modelling set
+afr003,AFR,F,True,True,True,dev,modelling set
+afr004,AFR,F,True,True,True,dev,modelling set
+afr005,AFR,F,True,True,True,dev,modelling set
+afr006,AFR,M,True,True,True,dev,modelling set
+afr007,AFR,F,False,True,True,,facial only (no cranial data)
+afr008,AFR,M,True,True,True,test,modelling set
+afr009,AFR,F,True,True,True,dev,modelling set
+afr010,AFR,F,True,True,True,dev,modelling set
+afr011,AFR,F,True,True,True,test,modelling set
+afr012,AFR,M,True,True,True,dev,modelling set
+afr013,AFR,M,True,True,True,dev,modelling set
+afr014,AFR,M,True,True,True,dev,modelling set
+afr015,AFR,M,True,True,True,dev,modelling set
+afr016,AFR,M,True,True,True,test,modelling set
+afr017,AFR,M,True,True,True,test,modelling set
+afr018,AFR,M,True,True,True,test,modelling set
+afr019,AFR,M,True,True,True,dev,modelling set
+afr020,AFR,M,True,True,True,dev,modelling set
+afr021,AFR,M,True,True,True,dev,modelling set
+afr022,AFR,F,True,True,True,dev,modelling set
+afr023,AFR,M,True,True,True,dev,modelling set
+afr025,AFR,M,True,True,True,test,modelling set
+afr026,AFR,M,True,True,True,dev,modelling set
+afr027,AFR,M,True,True,True,dev,modelling set
+afr028,AFR,M,True,True,True,dev,modelling set
+afr029,AFR,M,True,True,True,dev,modelling set
+afr030,AFR,F,True,True,True,dev,modelling set
+afr031,AFR,M,True,True,True,dev,modelling set
+afr032,AFR,M,True,True,True,test,modelling set
+afr033,AFR,M,True,True,True,dev,modelling set
+afr034,AFR,F,True,True,True,test,modelling set
+afr035,AFR,M,False,True,True,,facial only (no cranial data)
+afr036,AFR,M,True,True,True,dev,modelling set
+afr037,AFR,M,True,True,True,dev,modelling set
+afr038,AFR,F,True,True,True,dev,modelling set
+afr039,AFR,M,True,True,True,dev,modelling set
+afr040,AFR,M,True,True,True,test,modelling set
+afr041,AFR,F,False,True,True,,facial only (no cranial data)
+afr042,AFR,F,True,True,True,dev,modelling set
+afr043,AFR,M,True,True,True,test,modelling set
+afr044,AFR,M,True,True,True,dev,modelling set
+afr045,AFR,F,True,True,True,dev,modelling set
+afr046,AFR,F,False,True,True,,facial only (no cranial data)
+afr047,AFR,F,True,True,True,test,modelling set
+afr048,AFR,F,False,True,True,,facial only (no cranial data)
+afr049,AFR,M,True,True,True,test,modelling set
+afr050,AFR,F,True,True,True,dev,modelling set
+afr051,AFR,F,True,True,True,dev,modelling set
+afr052,AFR,F,True,True,True,dev,modelling set
+afr053,AFR,M,True,True,True,dev,modelling set
+afr054,AFR,F,True,True,True,test,modelling set
+afr055,AFR,F,True,True,True,dev,modelling set
+afr056,AFR,M,False,True,False,,facial only (no cranial data)
+afr057,AFR,F,True,True,True,test,modelling set
+afr058,AFR,M,True,True,True,dev,modelling set
+afr059,AFR,F,True,True,True,dev,modelling set
+afr060,AFR,F,True,True,True,test,modelling set
+afr061,AFR,M,True,True,True,dev,modelling set
+afr062,AFR,M,True,True,True,dev,modelling set
+afr063,AFR,M,True,True,True,dev,modelling set
+afr065,AFR,M,True,True,True,dev,modelling set
+afr066,AFR,M,False,True,True,,facial only (no cranial data)
+afr067,AFR,M,True,True,True,dev,modelling set
+afr068,AFR,M,False,True,True,,facial only (no cranial data)
+afr069,AFR,F,True,True,True,dev,modelling set
+afr070,AFR,F,True,True,True,dev,modelling set
+afr071,AFR,F,True,True,True,dev,modelling set
+afr073,AFR,M,True,True,True,dev,modelling set
+afr075,AFR,F,True,True,True,dev,modelling set
+afr078,AFR,M,True,True,True,dev,modelling set
+afr080,AFR,M,True,True,True,dev,modelling set
+afr081,AFR,M,True,True,True,dev,modelling set
+afr082,AFR,M,True,True,True,dev,modelling set
+afr083,AFR,M,False,True,True,,facial only (no cranial data)
+afr085,AFR,F,True,True,True,dev,modelling set
+afr086,AFR,F,False,False,True,,tissue depth only
+afr087,AFR,F,True,True,True,test,modelling set
+afr089,AFR,F,True,True,True,dev,modelling set
+afr090,AFR,F,True,True,True,dev,modelling set
+afr092,AFR,F,True,True,True,dev,modelling set
+afr093,AFR,F,True,True,True,dev,modelling set
+afr094,AFR,F,True,True,True,dev,modelling set
+afr095,AFR,F,True,True,True,dev,modelling set
+afr096,AFR,F,True,True,True,dev,modelling set
+afr097,AFR,F,True,True,True,dev,modelling set
+afr098,AFR,F,True,True,True,dev,modelling set
+afr099,AFR,F,True,True,True,test,modelling set
+afr100,AFR,F,True,True,True,dev,modelling set
+afr101,AFR,M,True,True,False,dev,modelling set
+afr102,AFR,F,True,True,True,dev,modelling set
+afr103,AFR,F,True,True,True,dev,modelling set
+afr104,AFR,F,True,True,True,test,modelling set
+afr105,AFR,F,True,True,True,dev,modelling set
+afr106,AFR,F,True,True,True,dev,modelling set
+afr107,AFR,F,True,True,True,dev,modelling set
+afr108,AFR,M,True,True,False,dev,modelling set
+afr110,AFR,M,True,True,True,dev,modelling set
+asn001,ASN,F,True,True,True,test,modelling set
+asn002,ASN,F,True,True,True,dev,modelling set
+asn003,ASN,F,True,True,True,dev,modelling set
+asn004,ASN,M,True,True,True,test,modelling set
+asn005,ASN,F,True,True,True,dev,modelling set
+asn006,ASN,F,True,True,True,dev,modelling set
+asn007,ASN,M,True,True,True,dev,modelling set
+asn008,ASN,M,True,True,True,test,modelling set
+asn009,ASN,F,True,True,True,dev,modelling set
+asn010,ASN,M,True,True,True,dev,modelling set
+asn011,ASN,M,True,True,True,test,modelling set
+asn012,ASN,F,True,True,True,test,modelling set
+asn013,ASN,F,True,True,True,dev,modelling set
+asn014,ASN,M,True,True,True,dev,modelling set
+asn015,ASN,M,True,True,True,dev,modelling set
+asn016,ASN,M,True,True,True,dev,modelling set
+asn017,ASN,M,True,True,True,test,modelling set
+asn018,ASN,M,True,True,True,dev,modelling set
+asn019,ASN,M,True,True,True,dev,modelling set
+asn020,ASN,F,True,True,True,test,modelling set
+asn021,ASN,F,True,True,True,dev,modelling set
+asn022,ASN,F,True,True,True,dev,modelling set
+asn023,ASN,M,True,True,True,dev,modelling set
+asn024,ASN,F,True,True,True,dev,modelling set
+asn025,ASN,F,True,True,True,dev,modelling set
+asn026,ASN,M,True,True,True,dev,modelling set
+asn027,ASN,M,True,True,True,test,modelling set
+asn028,ASN,F,True,True,True,dev,modelling set
+asn029,ASN,F,True,True,True,test,modelling set
+asn030,ASN,F,True,True,True,dev,modelling set
+asn031,ASN,F,True,True,True,dev,modelling set
+asn032,ASN,M,True,True,True,test,modelling set
+asn033,ASN,F,True,True,True,dev,modelling set
+asn034,ASN,F,True,True,True,dev,modelling set
+asn035,ASN,F,True,True,True,dev,modelling set
+asn036,ASN,M,True,True,True,dev,modelling set
+asn037,ASN,M,True,True,True,dev,modelling set
+asn038,ASN,F,True,True,True,dev,modelling set
+asn039,ASN,M,True,True,True,dev,modelling set
+asn040,ASN,M,True,True,True,dev,modelling set
+asn041,ASN,F,True,True,True,dev,modelling set
+asn042,ASN,M,True,True,True,dev,modelling set
+asn043,ASN,F,True,True,True,dev,modelling set
+asn044,ASN,M,True,True,True,dev,modelling set
+asn045,ASN,F,True,True,True,test,modelling set
+asn046,ASN,M,True,True,True,dev,modelling set
+asn047,ASN,F,True,True,True,test,modelling set
+asn048,ASN,F,True,True,True,dev,modelling set
+asn049,ASN,F,True,True,True,dev,modelling set
+asn050,ASN,M,True,True,True,dev,modelling set
+asn051,ASN,F,True,True,True,dev,modelling set
+asn052,ASN,M,True,True,True,dev,modelling set
+asn053,ASN,F,True,True,True,test,modelling set
+asn054,ASN,M,True,True,True,dev,modelling set
+asn055,ASN,F,True,True,True,dev,modelling set
+asn056,ASN,M,True,True,True,test,modelling set
+asn057,ASN,F,True,True,True,dev,modelling set
+asn058,ASN,M,True,True,True,test,modelling set
+asn059,ASN,M,True,True,True,dev,modelling set
+asn060,ASN,F,True,True,True,dev,modelling set
+asn061,ASN,F,True,True,True,dev,modelling set
+asn062,ASN,F,True,True,True,dev,modelling set
+asn063,ASN,M,True,True,True,dev,modelling set
+asn064,ASN,F,True,True,True,dev,modelling set
+asn065,ASN,M,True,True,True,dev,modelling set
+asn066,ASN,F,True,True,True,dev,modelling set
+asn067,ASN,F,True,True,True,dev,modelling set
+asn068,ASN,F,True,True,True,dev,modelling set
+asn069,ASN,M,True,True,True,dev,modelling set
+asn070,ASN,M,True,True,True,dev,modelling set
+asn071,ASN,M,True,True,True,dev,modelling set
+asn072,ASN,F,True,True,True,dev,modelling set
+asn073,ASN,F,True,True,True,dev,modelling set
+asn074,ASN,F,True,True,True,test,modelling set
+asn075,ASN,M,True,True,True,dev,modelling set
+asn076,ASN,F,True,True,True,dev,modelling set
+asn077,ASN,M,True,True,True,dev,modelling set
+asn078,ASN,F,False,True,True,,facial only (no cranial data)
+asn079,ASN,M,True,True,True,dev,modelling set
+asn080,ASN,F,True,True,True,dev,modelling set
+asn081,ASN,M,True,True,True,dev,modelling set
+asn082,ASN,M,True,True,True,dev,modelling set
+asn083,ASN,F,False,True,True,,facial only (no cranial data)
+asn084,ASN,M,True,True,True,test,modelling set
+asn085,ASN,M,True,True,True,dev,modelling set
+asn086,ASN,M,True,True,True,dev,modelling set
+asn087,ASN,M,True,True,True,dev,modelling set
+asn088,ASN,F,True,True,True,dev,modelling set
+asn089,ASN,M,True,True,True,dev,modelling set
+asn090,ASN,M,True,True,True,dev,modelling set
+asn091,ASN,M,True,True,True,dev,modelling set
+asn092,ASN,M,True,True,True,dev,modelling set
+asn093,ASN,M,True,True,True,dev,modelling set
+asn094,ASN,F,True,True,True,test,modelling set
+asn095,ASN,F,True,True,False,dev,modelling set
+cau001,EUR,M,True,True,True,dev,modelling set
+cau002,EUR,M,False,True,True,,facial only (no cranial data)
+cau003,EUR,F,False,True,True,,facial only (no cranial data)
+cau004,EUR,M,True,True,True,dev,modelling set
+cau005,EUR,M,True,True,True,dev,modelling set
+cau006,EUR,F,True,True,True,dev,modelling set
+cau007,EUR,F,True,True,True,dev,modelling set
+cau008,EUR,F,True,True,True,test,modelling set
+cau009,EUR,F,True,True,True,dev,modelling set
+cau010,EUR,F,True,True,True,dev,modelling set
+cau011,EUR,F,True,True,True,test,modelling set
+cau012,EUR,M,True,True,True,test,modelling set
+cau013,EUR,F,True,True,True,dev,modelling set
+cau014,EUR,M,True,True,True,dev,modelling set
+cau015,EUR,F,True,True,True,test,modelling set
+cau016,EUR,F,True,True,True,test,modelling set
+cau017,EUR,F,True,True,True,dev,modelling set
+cau018,EUR,F,True,True,True,dev,modelling set
+cau019,EUR,F,True,True,True,dev,modelling set
+cau020,EUR,F,True,True,True,test,modelling set
+cau021,EUR,F,True,True,True,dev,modelling set
+cau022,EUR,F,True,True,True,dev,modelling set
+cau023,EUR,F,True,True,True,dev,modelling set
+cau024,EUR,F,True,True,True,dev,modelling set
+cau025,EUR,F,True,True,True,dev,modelling set
+cau026,EUR,F,True,True,True,dev,modelling set
+cau027,EUR,F,True,True,True,dev,modelling set
+cau028,EUR,F,True,True,True,dev,modelling set
+cau029,EUR,F,False,True,True,,facial only (no cranial data)
+cau030,EUR,M,True,True,True,test,modelling set
+cau031,EUR,F,True,True,True,dev,modelling set
+cau032,EUR,F,False,True,True,,facial only (no cranial data)
+cau033,EUR,F,True,True,True,dev,modelling set
+cau034,EUR,F,True,True,True,dev,modelling set
+cau035,EUR,F,True,True,True,dev,modelling set
+cau037,EUR,M,True,True,True,dev,modelling set
+cau038,EUR,M,True,True,True,dev,modelling set
+cau039,EUR,M,True,True,True,dev,modelling set
+cau040,EUR,F,True,True,True,dev,modelling set
+cau041,EUR,M,True,True,True,dev,modelling set
+cau042,EUR,M,True,True,True,test,modelling set
+cau043,EUR,F,False,True,True,,facial only (no cranial data)
+cau044,EUR,M,True,True,True,dev,modelling set
+cau045,EUR,F,True,True,True,test,modelling set
+cau046,EUR,M,True,True,True,dev,modelling set
+cau047,EUR,M,True,True,True,dev,modelling set
+cau048,EUR,M,True,True,True,dev,modelling set
+cau049,EUR,F,True,True,True,dev,modelling set
+cau050,EUR,F,True,True,True,dev,modelling set
+cau051,EUR,M,True,True,True,dev,modelling set
+cau052,EUR,F,True,True,True,dev,modelling set
+cau053,EUR,F,True,True,True,dev,modelling set
+cau054,EUR,F,True,True,True,dev,modelling set
+cau055,EUR,M,True,True,True,test,modelling set
+cau056,EUR,F,True,True,True,dev,modelling set
+cau057,EUR,F,True,True,True,dev,modelling set
+cau058,EUR,M,True,True,True,dev,modelling set
+cau059,EUR,M,True,True,True,dev,modelling set
+cau060,EUR,M,True,True,True,dev,modelling set
+cau061,EUR,M,True,True,True,dev,modelling set
+cau062,EUR,M,True,True,True,dev,modelling set
+cau063,EUR,M,True,True,True,dev,modelling set
+cau064,EUR,M,True,True,True,test,modelling set
+cau066,EUR,M,True,True,True,dev,modelling set
+cau067,EUR,M,True,True,True,test,modelling set
+cau068,EUR,M,True,True,True,dev,modelling set
+cau069,EUR,M,True,True,True,dev,modelling set
+cau070,EUR,M,True,True,True,dev,modelling set
+cau071,EUR,M,True,True,True,dev,modelling set
+cau072,EUR,M,True,True,True,dev,modelling set
+cau073,EUR,M,True,True,True,test,modelling set
+cau074,EUR,M,True,True,True,dev,modelling set
+cau075,EUR,M,True,True,True,dev,modelling set
+cau076,EUR,M,True,True,True,dev,modelling set
+cau077,EUR,M,True,True,True,dev,modelling set
+cau078,EUR,M,True,True,True,dev,modelling set
+cau079,EUR,M,True,True,True,test,modelling set
+cau080,EUR,M,True,True,True,dev,modelling set
+cau081,EUR,M,True,True,True,dev,modelling set
+cau082,EUR,F,True,True,True,dev,modelling set
+cau083,EUR,F,True,True,True,dev,modelling set
+cau084,EUR,F,True,True,True,test,modelling set
+cau085,EUR,F,True,True,True,dev,modelling set
+cau086,EUR,M,True,True,True,dev,modelling set
+cau087,EUR,M,True,True,True,dev,modelling set
+cau088,EUR,F,True,True,True,test,modelling set
+cau090,EUR,F,True,True,True,dev,modelling set
+cau091,EUR,M,True,True,True,dev,modelling set
+cau092,EUR,M,True,True,True,test,modelling set
+cau093,EUR,F,True,True,True,test,modelling set
+cau094,EUR,F,True,True,True,dev,modelling set
+cau095,EUR,F,True,True,True,dev,modelling set
+cau096,EUR,F,True,False,True,,cranial only (no facial data)
+cau097,EUR,F,True,True,True,dev,modelling set
+cau098,EUR,M,True,True,True,test,modelling set
+cau099,EUR,F,True,True,True,dev,modelling set
+cau100,EUR,M,True,True,True,dev,modelling set
+cau101,EUR,M,True,True,True,dev,modelling set
+his001,HIS,F,False,True,True,,facial only (no cranial data)
+his002,HIS,F,False,True,True,,facial only (no cranial data)
+his003,HIS,F,False,True,True,,facial only (no cranial data)
+his004,HIS,F,False,True,True,,facial only (no cranial data)
+his005,HIS,F,False,True,True,,facial only (no cranial data)
+his006,HIS,F,False,True,True,,facial only (no cranial data)
+his007,HIS,F,False,True,True,,facial only (no cranial data)
+his008,HIS,F,False,True,True,,facial only (no cranial data)
+his009,HIS,F,False,True,True,,facial only (no cranial data)
+his010,HIS,F,False,True,True,,facial only (no cranial data)
+his011,HIS,F,False,True,True,,facial only (no cranial data)
+his012,HIS,F,False,True,True,,facial only (no cranial data)
+his013,HIS,F,False,True,True,,facial only (no cranial data)
+his014,HIS,F,False,True,True,,facial only (no cranial data)
+his015,HIS,F,False,True,True,,facial only (no cranial data)
+his016,HIS,F,False,True,True,,facial only (no cranial data)
+his017,HIS,F,False,True,True,,facial only (no cranial data)
+his018,HIS,F,False,True,True,,facial only (no cranial data)
+his019,HIS,F,False,True,True,,facial only (no cranial data)
+his020,HIS,F,False,True,True,,facial only (no cranial data)
+his021,HIS,F,False,True,True,,facial only (no cranial data)
+his022,HIS,F,False,True,True,,facial only (no cranial data)
+his023,HIS,F,False,True,True,,facial only (no cranial data)
+his024,HIS,F,False,True,True,,facial only (no cranial data)
+his025,HIS,F,False,True,True,,facial only (no cranial data)
+his026,HIS,M,False,True,True,,facial only (no cranial data)
+his027,HIS,M,False,True,True,,facial only (no cranial data)
+his028,HIS,M,False,True,True,,facial only (no cranial data)
+his029,HIS,M,False,True,True,,facial only (no cranial data)
+his030,HIS,M,False,True,True,,facial only (no cranial data)
+his031,HIS,M,False,True,True,,facial only (no cranial data)
+his032,HIS,M,False,True,True,,facial only (no cranial data)
+his033,HIS,M,False,True,True,,facial only (no cranial data)
+his034,HIS,M,False,True,True,,facial only (no cranial data)
+his035,HIS,M,False,True,True,,facial only (no cranial data)
+his036,HIS,M,False,True,True,,facial only (no cranial data)
+his037,HIS,M,False,True,True,,facial only (no cranial data)
+his038,HIS,M,False,True,True,,facial only (no cranial data)
+his039,HIS,M,False,False,True,,tissue depth only
+his040,HIS,M,False,True,True,,facial only (no cranial data)
+his041,HIS,M,False,True,True,,facial only (no cranial data)
+his042,HIS,M,False,True,True,,facial only (no cranial data)
+his043,HIS,M,False,True,True,,facial only (no cranial data)
+his044,HIS,M,False,True,True,,facial only (no cranial data)
+his045,HIS,M,False,True,True,,facial only (no cranial data)
+his046,HIS,M,False,True,True,,facial only (no cranial data)
+his047,HIS,M,False,True,True,,facial only (no cranial data)
+his048,HIS,M,False,True,True,,facial only (no cranial data)
+his049,HIS,M,False,True,True,,facial only (no cranial data)
+his050,HIS,M,False,True,True,,facial only (no cranial data)
+his051,HIS,M,False,True,True,,facial only (no cranial data)
+his052,HIS,M,False,True,True,,facial only (no cranial data)
+his053,HIS,M,False,True,True,,facial only (no cranial data)
+his054,HIS,M,False,True,True,,facial only (no cranial data)
+his055,HIS,M,False,True,True,,facial only (no cranial data)
+his056,HIS,M,False,True,True,,facial only (no cranial data)
+his057,HIS,M,False,True,True,,facial only (no cranial data)
+his058,HIS,M,False,True,True,,facial only (no cranial data)
+his059,HIS,M,False,True,True,,facial only (no cranial data)
+his060,HIS,M,False,True,True,,facial only (no cranial data)
+his061,HIS,M,False,True,True,,facial only (no cranial data)
+his062,HIS,M,False,True,True,,facial only (no cranial data)
+his063,HIS,M,False,True,True,,facial only (no cranial data)
+his064,HIS,M,False,True,True,,facial only (no cranial data)
+his065,HIS,M,False,True,True,,facial only (no cranial data)
+his066,HIS,M,False,True,True,,facial only (no cranial data)
+his067,HIS,M,False,True,True,,facial only (no cranial data)
+his068,HIS,M,False,True,True,,facial only (no cranial data)
+his069,HIS,M,False,True,True,,facial only (no cranial data)
+his070,HIS,M,False,True,True,,facial only (no cranial data)
+his071,HIS,M,False,True,True,,facial only (no cranial data)
+his072,HIS,M,False,True,True,,facial only (no cranial data)
+his073,HIS,M,False,True,True,,facial only (no cranial data)
+his074,HIS,M,False,True,True,,facial only (no cranial data)
+his075,HIS,M,False,True,True,,facial only (no cranial data)
+his076,HIS,F,False,True,True,,facial only (no cranial data)
+his077,HIS,F,False,True,True,,facial only (no cranial data)
+his078,HIS,F,False,True,True,,facial only (no cranial data)
+his079,HIS,F,False,True,True,,facial only (no cranial data)
+his080,HIS,F,False,True,True,,facial only (no cranial data)
+his081,HIS,F,False,True,True,,facial only (no cranial data)
+his082,HIS,F,False,True,True,,facial only (no cranial data)
+his083,HIS,F,False,True,True,,facial only (no cranial data)
+his084,HIS,F,False,True,True,,facial only (no cranial data)
+his085,HIS,F,False,True,True,,facial only (no cranial data)
+his086,HIS,F,False,True,True,,facial only (no cranial data)
+his087,HIS,F,False,True,True,,facial only (no cranial data)
+his088,HIS,F,False,False,True,,tissue depth only
+his089,HIS,F,False,True,True,,facial only (no cranial data)
+his090,HIS,F,False,True,True,,facial only (no cranial data)
+his091,HIS,F,False,True,True,,facial only (no cranial data)
+his092,HIS,F,False,True,True,,facial only (no cranial data)
+his093,HIS,F,False,True,True,,facial only (no cranial data)
+his094,HIS,F,False,True,True,,facial only (no cranial data)
+his095,HIS,F,False,True,True,,facial only (no cranial data)
+his096,HIS,F,False,True,True,,facial only (no cranial data)
+his097,HIS,F,False,True,True,,facial only (no cranial data)
+his098,HIS,F,False,True,True,,facial only (no cranial data)
+his099,HIS,F,False,True,True,,facial only (no cranial data)
+his100,HIS,F,False,True,True,,facial only (no cranial data)
+hwf100,HWF/HWM,F,True,False,False,,cranial only (no facial data)
+hwf52,HWF/HWM,F,True,False,False,,cranial only (no facial data)
+hwf69,HWF/HWM,F,True,False,False,,cranial only (no facial data)
+hwf77,HWF/HWM,F,True,False,False,,cranial only (no facial data)
+hwf78,HWF/HWM,F,True,False,False,,cranial only (no facial data)
+hwf89,HWF/HWM,F,True,False,False,,cranial only (no facial data)
+hwf95,HWF/HWM,F,True,False,False,,cranial only (no facial data)
+hwf96,HWF/HWM,F,True,False,False,,cranial only (no facial data)
+hwf98,HWF/HWM,F,True,False,False,,cranial only (no facial data)
+hwf99,HWF/HWM,F,True,False,False,,cranial only (no facial data)
+hwm70,HWF/HWM,M,True,False,False,,cranial only (no facial data)
+hwm74,HWF/HWM,M,True,False,False,,cranial only (no facial data)

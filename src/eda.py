@@ -5,7 +5,7 @@ import pandas as pd
 from sklearn.decomposition import PCA
 import matplotlib
 
-from load_data import (CRANIAL_MEASURES, ancestry_from_id, load_cranial, load_facial, load_tissue_depth)
+from load_data import (CRANIAL_MEASURES, CRANIAL_NAMES, ancestry_from_id, load_cranial, load_facial, load_tissue_depth)
 
 ROOT = Path(__file__).resolve().parent.parent
 FIG = ROOT / "reports" / "figures"
@@ -28,14 +28,6 @@ plt.rcParams.update({
     "axes.axisbelow": True, "figure.dpi": 150, "savefig.bbox": "tight",
 })
 
-CRANIAL_NAMES = {
-    "AUB": "Auricular breadth", "BBH": "Basion-bregma height", "BNL": "Basion-nasion length",
-    "BPL": "Basion-prosthion length", "FRC": "Frontal chord", "GOL": "Glabello-occipital length",
-    "MAB": "Maxillo-alveolar breadth", "NLB": "Nasal breadth", "NLHL": "Nasal height",
-    "OBHL": "Orbital height", "OCC": "Occipital chord", "PAC": "Parietal chord",
-    "UFHT": "Upper facial height", "WFB": "Minimum frontal breadth", "XCB": "Max cranial breadth",
-    "ZYB": "Bizygomatic breadth",
-}
 PRIMARY = [m for m in CRANIAL_MEASURES if m != "OBBL"] 
 
 #Subjects per ancestry and sex in each dataset

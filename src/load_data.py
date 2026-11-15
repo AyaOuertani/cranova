@@ -8,7 +8,21 @@ CRANIAL_MEASURES = [
     "AUB", "BBH", "BNL", "BPL", "FRC", "GOL", "MAB", "NLB", "NLHL",
     "OBBL", "OBHL", "OCC", "PAC", "UFHT", "WFB", "XCB", "ZYB",
 ]
+CRANIAL_NAMES = {
+    "AUB": "Auricular breadth", "BBH": "Basion-bregma height", "BNL": "Basion-nasion length",
+    "BPL": "Basion-prosthion length", "FRC": "Frontal chord", "GOL": "Glabello-occipital length",
+    "MAB": "Maxillo-alveolar breadth", "NLB": "Nasal breadth", "NLHL": "Nasal height",
+    "OBBL": "Orbital breadth", "OBHL": "Orbital height", "OCC": "Occipital chord",
+    "PAC": "Parietal chord", "UFHT": "Upper facial height", "WFB": "Minimum frontal breadth",
+    "XCB": "Max cranial breadth", "ZYB": "Bizygomatic breadth",
+}
 
+FACIAL_LANDMARK_NAMES = {
+    "se": "sellion", "exL": "left exocanthion", "exR": "right exocanthion", "prn": "pronasale",
+    "acL": "left alare curvature point", "acR": "right alare curvature point", "sn": "subnasale",
+    "ls": "labrale superius", "li": "labrale inferius", "sto": "stomion",
+    "chL": "left cheilion", "chR": "right cheilion",
+}
 #Return one row per subject: index 'id', columns sex, ancestry + 17 measures (mm).
 def load_cranial() -> pd.DataFrame:
     path = RAW / "ALL_Cranial_ILD_data.xlsx"

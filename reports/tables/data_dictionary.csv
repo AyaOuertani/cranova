@@ -1,0 +1,193 @@
+dataset,column,description,unit,role
+cranial,AUB,Auricular breadth,mm,input
+cranial,BBH,Basion-bregma height,mm,input
+cranial,BNL,Basion-nasion length,mm,input
+cranial,BPL,Basion-prosthion length,mm,input
+cranial,FRC,Frontal chord,mm,input
+cranial,GOL,Glabello-occipital length,mm,input
+cranial,MAB,Maxillo-alveolar breadth,mm,input
+cranial,NLB,Nasal breadth,mm,input
+cranial,NLHL,Nasal height,mm,input
+cranial,OBBL,Orbital breadth,mm,excluded (missing for all ASNM subjects)
+cranial,OBHL,Orbital height,mm,input
+cranial,OCC,Occipital chord,mm,input
+cranial,PAC,Parietal chord,mm,input
+cranial,UFHT,Upper facial height,mm,input
+cranial,WFB,Minimum frontal breadth,mm,input
+cranial,XCB,Max cranial breadth,mm,input
+cranial,ZYB,Bizygomatic breadth,mm,input
+cranial,sex,Recorded sex (F/M),category,input
+cranial,ancestry,"AFR, ASN or EUR",category,input
+facial_known,se-exL,Distance between sellion and left exocanthion (CT-derived face),mm,target
+facial_reface,se-exL,Distance between sellion and left exocanthion (ReFace approximation),mm,"baseline only, never a model input"
+facial_known,se-exR,Distance between sellion and right exocanthion (CT-derived face),mm,target
+facial_reface,se-exR,Distance between sellion and right exocanthion (ReFace approximation),mm,"baseline only, never a model input"
+facial_known,se-prn,Distance between sellion and pronasale (CT-derived face),mm,target
+facial_reface,se-prn,Distance between sellion and pronasale (ReFace approximation),mm,"baseline only, never a model input"
+facial_known,se-acL,Distance between sellion and left alare curvature point (CT-derived face),mm,target
+facial_reface,se-acL,Distance between sellion and left alare curvature point (ReFace approximation),mm,"baseline only, never a model input"
+facial_known,se-acR,Distance between sellion and right alare curvature point (CT-derived face),mm,target
+facial_reface,se-acR,Distance between sellion and right alare curvature point (ReFace approximation),mm,"baseline only, never a model input"
+facial_known,se-sn,Distance between sellion and subnasale (CT-derived face),mm,target
+facial_reface,se-sn,Distance between sellion and subnasale (ReFace approximation),mm,"baseline only, never a model input"
+facial_known,se-ls,Distance between sellion and labrale superius (CT-derived face),mm,target
+facial_reface,se-ls,Distance between sellion and labrale superius (ReFace approximation),mm,"baseline only, never a model input"
+facial_known,se-li,Distance between sellion and labrale inferius (CT-derived face),mm,target
+facial_reface,se-li,Distance between sellion and labrale inferius (ReFace approximation),mm,"baseline only, never a model input"
+facial_known,se-sto,Distance between sellion and stomion (CT-derived face),mm,target
+facial_reface,se-sto,Distance between sellion and stomion (ReFace approximation),mm,"baseline only, never a model input"
+facial_known,se-chL,Distance between sellion and left cheilion (CT-derived face),mm,target
+facial_reface,se-chL,Distance between sellion and left cheilion (ReFace approximation),mm,"baseline only, never a model input"
+facial_known,se-chR,Distance between sellion and right cheilion (CT-derived face),mm,target
+facial_reface,se-chR,Distance between sellion and right cheilion (ReFace approximation),mm,"baseline only, never a model input"
+facial_known,exL-exR,Distance between left exocanthion and right exocanthion (CT-derived face),mm,target
+facial_reface,exL-exR,Distance between left exocanthion and right exocanthion (ReFace approximation),mm,"baseline only, never a model input"
+facial_known,exL-prn,Distance between left exocanthion and pronasale (CT-derived face),mm,target
+facial_reface,exL-prn,Distance between left exocanthion and pronasale (ReFace approximation),mm,"baseline only, never a model input"
+facial_known,exL-acL,Distance between left exocanthion and left alare curvature point (CT-derived face),mm,target
+facial_reface,exL-acL,Distance between left exocanthion and left alare curvature point (ReFace approximation),mm,"baseline only, never a model input"
+facial_known,exL-acR,Distance between left exocanthion and right alare curvature point (CT-derived face),mm,target
+facial_reface,exL-acR,Distance between left exocanthion and right alare curvature point (ReFace approximation),mm,"baseline only, never a model input"
+facial_known,exL-sn,Distance between left exocanthion and subnasale (CT-derived face),mm,target
+facial_reface,exL-sn,Distance between left exocanthion and subnasale (ReFace approximation),mm,"baseline only, never a model input"
+facial_known,exL-ls,Distance between left exocanthion and labrale superius (CT-derived face),mm,target
+facial_reface,exL-ls,Distance between left exocanthion and labrale superius (ReFace approximation),mm,"baseline only, never a model input"
+facial_known,exL-li,Distance between left exocanthion and labrale inferius (CT-derived face),mm,target
+facial_reface,exL-li,Distance between left exocanthion and labrale inferius (ReFace approximation),mm,"baseline only, never a model input"
+facial_known,exL-sto,Distance between left exocanthion and stomion (CT-derived face),mm,target
+facial_reface,exL-sto,Distance between left exocanthion and stomion (ReFace approximation),mm,"baseline only, never a model input"
+facial_known,exL-chL,Distance between left exocanthion and left cheilion (CT-derived face),mm,target
+facial_reface,exL-chL,Distance between left exocanthion and left cheilion (ReFace approximation),mm,"baseline only, never a model input"
+facial_known,exL-chR,Distance between left exocanthion and right cheilion (CT-derived face),mm,target
+facial_reface,exL-chR,Distance between left exocanthion and right cheilion (ReFace approximation),mm,"baseline only, never a model input"
+facial_known,exR-prn,Distance between right exocanthion and pronasale (CT-derived face),mm,target
+facial_reface,exR-prn,Distance between right exocanthion and pronasale (ReFace approximation),mm,"baseline only, never a model input"
+facial_known,exR-acL,Distance between right exocanthion and left alare curvature point (CT-derived face),mm,target
+facial_reface,exR-acL,Distance between right exocanthion and left alare curvature point (ReFace approximation),mm,"baseline only, never a model input"
+facial_known,exR-acR,Distance between right exocanthion and right alare curvature point (CT-derived face),mm,target
+facial_reface,exR-acR,Distance between right exocanthion and right alare curvature point (ReFace approximation),mm,"baseline only, never a model input"
+facial_known,exR-sn,Distance between right exocanthion and subnasale (CT-derived face),mm,target
+facial_reface,exR-sn,Distance between right exocanthion and subnasale (ReFace approximation),mm,"baseline only, never a model input"
+facial_known,exR-ls,Distance between right exocanthion and labrale superius (CT-derived face),mm,target
+facial_reface,exR-ls,Distance between right exocanthion and labrale superius (ReFace approximation),mm,"baseline only, never a model input"
+facial_known,exR-li,Distance between right exocanthion and labrale inferius (CT-derived face),mm,target
+facial_reface,exR-li,Distance between right exocanthion and labrale inferius (ReFace approximation),mm,"baseline only, never a model input"
+facial_known,exR-sto,Distance between right exocanthion and stomion (CT-derived face),mm,target
+facial_reface,exR-sto,Distance between right exocanthion and stomion (ReFace approximation),mm,"baseline only, never a model input"
+facial_known,exR-chL,Distance between right exocanthion and left cheilion (CT-derived face),mm,target
+facial_reface,exR-chL,Distance between right exocanthion and left cheilion (ReFace approximation),mm,"baseline only, never a model input"
+facial_known,exR-chR,Distance between right exocanthion and right cheilion (CT-derived face),mm,target
+facial_reface,exR-chR,Distance between right exocanthion and right cheilion (ReFace approximation),mm,"baseline only, never a model input"
+facial_known,prn-acL,Distance between pronasale and left alare curvature point (CT-derived face),mm,target
+facial_reface,prn-acL,Distance between pronasale and left alare curvature point (ReFace approximation),mm,"baseline only, never a model input"
+facial_known,prn-acR,Distance between pronasale and right alare curvature point (CT-derived face),mm,target
+facial_reface,prn-acR,Distance between pronasale and right alare curvature point (ReFace approximation),mm,"baseline only, never a model input"
+facial_known,prn-sn,Distance between pronasale and subnasale (CT-derived face),mm,target
+facial_reface,prn-sn,Distance between pronasale and subnasale (ReFace approximation),mm,"baseline only, never a model input"
+facial_known,prn-ls,Distance between pronasale and labrale superius (CT-derived face),mm,target
+facial_reface,prn-ls,Distance between pronasale and labrale superius (ReFace approximation),mm,"baseline only, never a model input"
+facial_known,prn-li,Distance between pronasale and labrale inferius (CT-derived face),mm,target
+facial_reface,prn-li,Distance between pronasale and labrale inferius (ReFace approximation),mm,"baseline only, never a model input"
+facial_known,prn-sto,Distance between pronasale and stomion (CT-derived face),mm,target
+facial_reface,prn-sto,Distance between pronasale and stomion (ReFace approximation),mm,"baseline only, never a model input"
+facial_known,prn-chL,Distance between pronasale and left cheilion (CT-derived face),mm,target
+facial_reface,prn-chL,Distance between pronasale and left cheilion (ReFace approximation),mm,"baseline only, never a model input"
+facial_known,prn-chR,Distance between pronasale and right cheilion (CT-derived face),mm,target
+facial_reface,prn-chR,Distance between pronasale and right cheilion (ReFace approximation),mm,"baseline only, never a model input"
+facial_known,acL-acR,Distance between left alare curvature point and right alare curvature point (CT-derived face),mm,target
+facial_reface,acL-acR,Distance between left alare curvature point and right alare curvature point (ReFace approximation),mm,"baseline only, never a model input"
+facial_known,acL-sn,Distance between left alare curvature point and subnasale (CT-derived face),mm,target
+facial_reface,acL-sn,Distance between left alare curvature point and subnasale (ReFace approximation),mm,"baseline only, never a model input"
+facial_known,acL-ls,Distance between left alare curvature point and labrale superius (CT-derived face),mm,target
+facial_reface,acL-ls,Distance between left alare curvature point and labrale superius (ReFace approximation),mm,"baseline only, never a model input"
+facial_known,acL-li,Distance between left alare curvature point and labrale inferius (CT-derived face),mm,target
+facial_reface,acL-li,Distance between left alare curvature point and labrale inferius (ReFace approximation),mm,"baseline only, never a model input"
+facial_known,acL-sto,Distance between left alare curvature point and stomion (CT-derived face),mm,target
+facial_reface,acL-sto,Distance between left alare curvature point and stomion (ReFace approximation),mm,"baseline only, never a model input"
+facial_known,acL-chL,Distance between left alare curvature point and left cheilion (CT-derived face),mm,target
+facial_reface,acL-chL,Distance between left alare curvature point and left cheilion (ReFace approximation),mm,"baseline only, never a model input"
+facial_known,acL-chR,Distance between left alare curvature point and right cheilion (CT-derived face),mm,target
+facial_reface,acL-chR,Distance between left alare curvature point and right cheilion (ReFace approximation),mm,"baseline only, never a model input"
+facial_known,acR-sn,Distance between right alare curvature point and subnasale (CT-derived face),mm,target
+facial_reface,acR-sn,Distance between right alare curvature point and subnasale (ReFace approximation),mm,"baseline only, never a model input"
+facial_known,acR-ls,Distance between right alare curvature point and labrale superius (CT-derived face),mm,target
+facial_reface,acR-ls,Distance between right alare curvature point and labrale superius (ReFace approximation),mm,"baseline only, never a model input"
+facial_known,acR-li,Distance between right alare curvature point and labrale inferius (CT-derived face),mm,target
+facial_reface,acR-li,Distance between right alare curvature point and labrale inferius (ReFace approximation),mm,"baseline only, never a model input"
+facial_known,acR-sto,Distance between right alare curvature point and stomion (CT-derived face),mm,target
+facial_reface,acR-sto,Distance between right alare curvature point and stomion (ReFace approximation),mm,"baseline only, never a model input"
+facial_known,acR-chL,Distance between right alare curvature point and left cheilion (CT-derived face),mm,target
+facial_reface,acR-chL,Distance between right alare curvature point and left cheilion (ReFace approximation),mm,"baseline only, never a model input"
+facial_known,acR-chR,Distance between right alare curvature point and right cheilion (CT-derived face),mm,target
+facial_reface,acR-chR,Distance between right alare curvature point and right cheilion (ReFace approximation),mm,"baseline only, never a model input"
+facial_known,sn-ls,Distance between subnasale and labrale superius (CT-derived face),mm,target
+facial_reface,sn-ls,Distance between subnasale and labrale superius (ReFace approximation),mm,"baseline only, never a model input"
+facial_known,sn-li,Distance between subnasale and labrale inferius (CT-derived face),mm,target
+facial_reface,sn-li,Distance between subnasale and labrale inferius (ReFace approximation),mm,"baseline only, never a model input"
+facial_known,sn-sto,Distance between subnasale and stomion (CT-derived face),mm,target
+facial_reface,sn-sto,Distance between subnasale and stomion (ReFace approximation),mm,"baseline only, never a model input"
+facial_known,sn-chL,Distance between subnasale and left cheilion (CT-derived face),mm,target
+facial_reface,sn-chL,Distance between subnasale and left cheilion (ReFace approximation),mm,"baseline only, never a model input"
+facial_known,sn-chR,Distance between subnasale and right cheilion (CT-derived face),mm,target
+facial_reface,sn-chR,Distance between subnasale and right cheilion (ReFace approximation),mm,"baseline only, never a model input"
+facial_known,ls-li,Distance between labrale superius and labrale inferius (CT-derived face),mm,target
+facial_reface,ls-li,Distance between labrale superius and labrale inferius (ReFace approximation),mm,"baseline only, never a model input"
+facial_known,ls-sto,Distance between labrale superius and stomion (CT-derived face),mm,target
+facial_reface,ls-sto,Distance between labrale superius and stomion (ReFace approximation),mm,"baseline only, never a model input"
+facial_known,ls-chL,Distance between labrale superius and left cheilion (CT-derived face),mm,target
+facial_reface,ls-chL,Distance between labrale superius and left cheilion (ReFace approximation),mm,"baseline only, never a model input"
+facial_known,ls-chR,Distance between labrale superius and right cheilion (CT-derived face),mm,target
+facial_reface,ls-chR,Distance between labrale superius and right cheilion (ReFace approximation),mm,"baseline only, never a model input"
+facial_known,li-sto,Distance between labrale inferius and stomion (CT-derived face),mm,target
+facial_reface,li-sto,Distance between labrale inferius and stomion (ReFace approximation),mm,"baseline only, never a model input"
+facial_known,li-chL,Distance between labrale inferius and left cheilion (CT-derived face),mm,target
+facial_reface,li-chL,Distance between labrale inferius and left cheilion (ReFace approximation),mm,"baseline only, never a model input"
+facial_known,li-chR,Distance between labrale inferius and right cheilion (CT-derived face),mm,target
+facial_reface,li-chR,Distance between labrale inferius and right cheilion (ReFace approximation),mm,"baseline only, never a model input"
+facial_known,sto-chL,Distance between stomion and left cheilion (CT-derived face),mm,target
+facial_reface,sto-chL,Distance between stomion and left cheilion (ReFace approximation),mm,"baseline only, never a model input"
+facial_known,sto-chR,Distance between stomion and right cheilion (CT-derived face),mm,target
+facial_reface,sto-chR,Distance between stomion and right cheilion (ReFace approximation),mm,"baseline only, never a model input"
+facial_known,chL-chR,Distance between left cheilion and right cheilion (CT-derived face),mm,target
+facial_reface,chL-chR,Distance between left cheilion and right cheilion (ReFace approximation),mm,"baseline only, never a model input"
+tissue_depth,acp L,Soft-tissue depth at this landmark (workbook Landmarks_Ref),mm,auxiliary training target only
+tissue_depth,acp R,Soft-tissue depth at this landmark (workbook Landmarks_Ref),mm,auxiliary training target only
+tissue_depth,g,Soft-tissue depth at this landmark (workbook Landmarks_Ref),mm,auxiliary training target only
+tissue_depth,gn,Soft-tissue depth at this landmark (workbook Landmarks_Ref),mm,auxiliary training target only
+tissue_depth,go L,Soft-tissue depth at this landmark (workbook Landmarks_Ref),mm,auxiliary training target only
+tissue_depth,go R,Soft-tissue depth at this landmark (workbook Landmarks_Ref),mm,auxiliary training target only
+tissue_depth,ic L,Soft-tissue depth at this landmark (workbook Landmarks_Ref),mm,auxiliary training target only
+tissue_depth,ic R,Soft-tissue depth at this landmark (workbook Landmarks_Ref),mm,auxiliary training target only
+tissue_depth,im2 L,Soft-tissue depth at this landmark (workbook Landmarks_Ref),mm,auxiliary training target only
+tissue_depth,im2 R,Soft-tissue depth at this landmark (workbook Landmarks_Ref),mm,auxiliary training target only
+tissue_depth,li,Soft-tissue depth at this landmark (workbook Landmarks_Ref),mm,auxiliary training target only
+tissue_depth,ls,Soft-tissue depth at this landmark (workbook Landmarks_Ref),mm,auxiliary training target only
+tissue_depth,m,Soft-tissue depth at this landmark (workbook Landmarks_Ref),mm,auxiliary training target only
+tissue_depth,mio L,Soft-tissue depth at this landmark (workbook Landmarks_Ref),mm,auxiliary training target only
+tissue_depth,mio R,Soft-tissue depth at this landmark (workbook Landmarks_Ref),mm,auxiliary training target only
+tissue_depth,mls,Soft-tissue depth at this landmark (workbook Landmarks_Ref),mm,auxiliary training target only
+tissue_depth,mmb L,Soft-tissue depth at this landmark (workbook Landmarks_Ref),mm,auxiliary training target only
+tissue_depth,mmb R,Soft-tissue depth at this landmark (workbook Landmarks_Ref),mm,auxiliary training target only
+tissue_depth,mn,Soft-tissue depth at this landmark (workbook Landmarks_Ref),mm,auxiliary training target only
+tissue_depth,mp,Soft-tissue depth at this landmark (workbook Landmarks_Ref),mm,auxiliary training target only
+tissue_depth,mr L,Soft-tissue depth at this landmark (workbook Landmarks_Ref),mm,auxiliary training target only
+tissue_depth,mr R,Soft-tissue depth at this landmark (workbook Landmarks_Ref),mm,auxiliary training target only
+tissue_depth,mso L,Soft-tissue depth at this landmark (workbook Landmarks_Ref),mm,auxiliary training target only
+tissue_depth,mso R,Soft-tissue depth at this landmark (workbook Landmarks_Ref),mm,auxiliary training target only
+tissue_depth,n,Soft-tissue depth at this landmark (workbook Landmarks_Ref),mm,auxiliary training target only
+tissue_depth,op,Soft-tissue depth at this landmark (workbook Landmarks_Ref),mm,auxiliary training target only
+tissue_depth,pg,Soft-tissue depth at this landmark (workbook Landmarks_Ref),mm,auxiliary training target only
+tissue_depth,rhi,Soft-tissue depth at this landmark (workbook Landmarks_Ref),mm,auxiliary training target only
+tissue_depth,sc L,Soft-tissue depth at this landmark (workbook Landmarks_Ref),mm,auxiliary training target only
+tissue_depth,sc R,Soft-tissue depth at this landmark (workbook Landmarks_Ref),mm,auxiliary training target only
+tissue_depth,sm2 L,Soft-tissue depth at this landmark (workbook Landmarks_Ref),mm,auxiliary training target only
+tissue_depth,sm2 R,Soft-tissue depth at this landmark (workbook Landmarks_Ref),mm,auxiliary training target only
+tissue_depth,sn,Soft-tissue depth at this landmark (workbook Landmarks_Ref),mm,auxiliary training target only
+tissue_depth,v,Soft-tissue depth at this landmark (workbook Landmarks_Ref),mm,auxiliary training target only
+tissue_depth,zy L,Soft-tissue depth at this landmark (workbook Landmarks_Ref),mm,auxiliary training target only
+tissue_depth,zy R,Soft-tissue depth at this landmark (workbook Landmarks_Ref),mm,auxiliary training target only
+tissue_depth_excluded,me,Not defined in the workbook's landmark reference,mm,excluded
+tissue_depth_excluded,sg,Not defined in the workbook's landmark reference,mm,excluded
+tissue_depth_excluded,az L,Not defined in the workbook's landmark reference,mm,excluded
+tissue_depth_excluded,az R,Not defined in the workbook's landmark reference,mm,excluded
+tissue_depth_excluded,gn - z,Not defined in the workbook's landmark reference,mm,excluded
