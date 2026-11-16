@@ -53,6 +53,11 @@
 ## 7. Change control
 - Any change to this protocol is logged below with the date and the reason.
 - No model is trained or tuned using the test set.
+- Phase 3, uncertainty: facial-distance     predictions are reported with 90% split-conformal
+  intervals computed per distance and per ancestry x sex group ("Per distance + group").
+  Reason: a single error size per distance under-covers AFR subjects (86% achieved vs 90% promised);
+  group-specific intervals give 90 to 93% in every group (overall 91.0%, mean full width 10.5 mm).
+  Condition for the dashboard: sex and ancestry must be provided.
 
 ## 8. Planned Phase 3 experiments (defined before running)
 All experiments use the same development folds as the baselines. Inputs are the

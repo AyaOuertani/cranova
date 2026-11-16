@@ -1,0 +1,7 @@
+method,level,coverage,width_mm
+Per distance,0.5,0.507,3.835
+Per distance,0.8,0.806,7.588
+Per distance,0.9,0.907,10.021
+Per distance + group,0.5,0.513,4.018
+Per distance + group,0.8,0.813,7.851
+Per distance + group,0.9,0.91,10.516

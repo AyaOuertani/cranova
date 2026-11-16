@@ -1,0 +1,37 @@
+method,level,group,coverage,width_mm
+Per distance,0.5,AFR_F,0.445,3.835
+Per distance,0.5,AFR_M,0.44,3.835
+Per distance,0.5,ASN_F,0.568,3.836
+Per distance,0.5,ASN_M,0.567,3.835
+Per distance,0.5,EUR_F,0.527,3.835
+Per distance,0.5,EUR_M,0.491,3.836
+Per distance,0.8,AFR_F,0.732,7.588
+Per distance,0.8,AFR_M,0.737,7.589
+Per distance,0.8,ASN_F,0.869,7.59
+Per distance,0.8,ASN_M,0.856,7.588
+Per distance,0.8,EUR_F,0.834,7.587
+Per distance,0.8,EUR_M,0.801,7.59
+Per distance,0.9,AFR_F,0.855,10.02
+Per distance,0.9,AFR_M,0.858,10.021
+Per distance,0.9,ASN_F,0.958,10.024
+Per distance,0.9,ASN_M,0.938,10.018
+Per distance,0.9,EUR_F,0.927,10.019
+Per distance,0.9,EUR_M,0.9,10.024
+Per distance + group,0.5,AFR_F,0.51,4.671
+Per distance + group,0.5,AFR_M,0.502,4.638
+Per distance + group,0.5,ASN_F,0.514,3.439
+Per distance + group,0.5,ASN_M,0.52,3.544
+Per distance + group,0.5,EUR_F,0.513,3.787
+Per distance + group,0.5,EUR_M,0.516,4.087
+Per distance + group,0.8,AFR_F,0.804,9.087
+Per distance + group,0.8,AFR_M,0.826,9.47
+Per distance + group,0.8,ASN_F,0.809,6.558
+Per distance + group,0.8,ASN_M,0.82,6.949
+Per distance + group,0.8,EUR_F,0.812,7.322
+Per distance + group,0.8,EUR_M,0.809,7.861
+Per distance + group,0.9,AFR_F,0.902,11.973
+Per distance + group,0.9,AFR_M,0.928,13.08
+Per distance + group,0.9,ASN_F,0.905,8.424
+Per distance + group,0.9,ASN_M,0.909,9.373
+Per distance + group,0.9,EUR_F,0.911,9.719
+Per distance + group,0.9,EUR_M,0.906,10.748
