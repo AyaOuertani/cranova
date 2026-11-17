@@ -40,3 +40,12 @@ Exploratory probe (3 repeats, development data only, not part of the formal prot
 - Roadmap Phase 1 still needs the literature review and pretrained-model survey.
 - All results above are cross-validated on 219 development subjects; none come
   from the locked test set.
+
+## Phase 4 gate: geometry (distances -> 3D landmarks)
+- The 66 true distances are embeddable in 3D: reconstruction error at most 0.0065 mm.
+- Passing predicted distances through 3D loses nothing (MAE 2.336 -> 2.335 mm).
+- Mean 3D landmark error 2.59 mm (90% below 4.40 mm); best stomion 1.75, worst exocanthions 3.1-3.2 mm.
+- Mirror ambiguity removed by convention (nose tip in front); tested against rotation, translation, mirroring.
+- Display: predicted faces are placed on the training mean face; 90% landmark radii average 4.66 mm,
+  honest for all 12 landmarks and all 6 ancestry x sex groups (90-93%).
+- Rejected: stress refinement after MDS (no gain); eye-based display axes (radii 6.55 mm vs 4.66 mm).
