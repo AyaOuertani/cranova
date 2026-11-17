@@ -49,3 +49,12 @@ Exploratory probe (3 repeats, development data only, not part of the formal prot
 - Display: predicted faces are placed on the training mean face; 90% landmark radii average 4.66 mm,
   honest for all 12 landmarks and all 6 ancestry x sex groups (90-93%).
 - Rejected: stress refinement after MDS (no gain); eye-based display axes (radii 6.55 mm vs 4.66 mm).
+
+## Phase 5 gate: tissue depth integration
+- Tissue depth cannot be a model input: it is unknown for an unknown skull.
+- Classic use (depth vectors placed at skull landmarks) is not feasible: the cranial data has
+  17 distances, no 3D skull landmark coordinates.
+- Tested use as an auxiliary training target (E4): +0.020 mm improvement over the same network
+  without it (CI -0.033 to -0.007), far below the 0.10 mm threshold.
+- Personalised tissue-depth estimates for the user were considered and deferred: they would not
+  improve the face prediction (main objective). Can be added later without changing the pipeline.
