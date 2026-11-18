@@ -58,7 +58,7 @@
   Reason: a single error size per distance under-covers AFR subjects (86% achieved vs 90% promised);
   group-specific intervals give 90 to 93% in every group (overall 91.0%, mean full width 10.5 mm).
   Condition for the dashboard: sex and ancestry must be provided.
-
+- Phase 7: ReFace is used only as a comparison  baseline, never as model input or hybrid     component. Model and uncertainty frozen before the test run.
 ## 8. Planned Phase 3 experiments (defined before running)
 All experiments use the same development folds as the baselines. Inputs are the
 16 cranial measurements plus sex and ancestry, unless stated.

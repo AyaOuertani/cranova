@@ -1,0 +1,6 @@
+model,MAE_mm,ci_low,ci_high,final_minus_this_mm,diff_ci_low,diff_ci_high
+Mean predictor,3.553,3.092,4.064,-1.14,-1.539,-0.781
+ReFace,2.325,2.082,2.584,0.088,-0.164,0.345
+ReFace bias-corrected,2.187,1.979,2.417,0.226,0.023,0.441
+Ridge (cranial only),2.514,2.243,2.807,-0.102,-0.223,0.022
+Ridge + sex + ancestry (final model),2.412,2.168,2.677,0.0,0.0,0.0
