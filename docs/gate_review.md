@@ -58,3 +58,12 @@ Exploratory probe (3 repeats, development data only, not part of the formal prot
   without it (CI -0.033 to -0.007), far below the 0.10 mm threshold.
 - Personalised tissue-depth estimates for the user were considered and deferred: they would not
   improve the face prediction (main objective). Can be added later without changing the pipeline.
+
+## Phase 6 gate: complete head (GNM Head v3, Apache 2.0)
+- Landmark correspondence calibrated on    development subjects: every landmark within 1.4 mm of the average CT face (iBUG start was up to 7.5 mm off for eye corners and alar points).
+- Fixed a mirror (handedness) bug in orient_face; earlier error metrics unaffected (verified).
+- GNM fitting does NOT improve landmark accuracy: 2.575 -> 2.667 mm (+0.092, CI +0.075 to +0.109);
+  the penalty always went to the smallest value. Ridge already encodes the population prior of our data.
+- Decision: GNM is for display only (penalty 1, head coefficients stay within ~2 SD). The predicted
+  landmarks and their 90% spheres remain the scientific output.
+- Limit: the head is validated only at the 12 landmarks; the rest of the surface is GNM's plausible guess.

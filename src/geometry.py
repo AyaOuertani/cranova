@@ -30,7 +30,7 @@ def classical_mds(distance_matrix, dimensions=3):
 def orient_face(coordinates):
     index = {name: k for k, name in enumerate(LANDMARKS)}
     origin = (coordinates[index["exL"]] + coordinates[index["exR"]]) / 2
-    x = coordinates[index["exR"]] - coordinates[index["exL"]]
+    x = coordinates[index["exL"]] - coordinates[index["exR"]]   # toward the subject's left, as in GNM
     x = x / np.linalg.norm(x)
     down = (coordinates[index["chL"]] + coordinates[index["chR"]]) / 2 - origin
     y = -(down - (down @ x) * x)
