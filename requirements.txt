@@ -8,3 +8,4 @@ scikit-learn==1.9.1
 joblib==1.6.0
 openpyxl==3.1.5
 gnm_shape @ git+https://github.com/google/gnm.git@dfd3e4b96bda2f0061c6013a458b435cf3cb519f#subdirectory=gnm/shape
+matplotlib==3.11.2
