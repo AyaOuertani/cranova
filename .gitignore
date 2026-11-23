@@ -1,4 +1,16 @@
+# environments
 .venv/
-data/
-__pycahe__/
+.venv311/
+
+# editor
+.vscode/
+
+# Python
+__pycache__/
 *.pyc
+.pytest_cache/
+
+# data and generated files (rebuilt by the scripts)
+data/
+models/
+outputs/
