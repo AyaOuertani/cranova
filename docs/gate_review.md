@@ -67,3 +67,11 @@ Exploratory probe (3 repeats, development data only, not part of the formal prot
 - Decision: GNM is for display only (penalty 1, head coefficients stay within ~2 SD). The predicted
   landmarks and their 90% spheres remain the scientific output.
 - Limit: the head is validated only at the 12 landmarks; the rest of the surface is GNM's plausible guess.
+
+## Phase 7 gate: one-time test evaluation (55 subjects)
+- Final model MAE 2.266 mm (CI 2.093-2.454); consistent with development CV (2.32). No overfitting.
+- Better than mean predictor (-1.09 mm) and cranial-only ridge (-0.20 mm, CI -0.31 to -0.10).
+- ReFace more accurate (+0.24 mm in its favour, CI 0.09-0.40): S1b not met; independence caveat applies.
+- 90% intervals honest: 93.2% (distances), 94.8% (landmarks); every group >= 89%.
+- AFR groups have the largest errors; reported as a fairness limitation.
+- Test set used once (marker file).
