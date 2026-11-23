@@ -1,16 +1,12 @@
-# environments
-.venv/
-.venv311/
+# data: share only the two files the app reads (dataset is CC BY 4.0, cited in the README)
+data/*
+!data/raw/
+data/raw/*
+!data/raw/ALL_Cranial_ILD_data.xlsx
+!data/raw/ALL_Facial_ILD_data.xlsx
 
-# editor
-.vscode/
+# models: share only the frozen bundle the app loads
+models/*
+!models/reconstruction_bundle.joblib
 
-# Python
-__pycache__/
-*.pyc
-.pytest_cache/
-
-# data and generated files (rebuilt by the scripts)
-data/
-models/
 outputs/
